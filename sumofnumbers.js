@@ -1,3 +1,5 @@
+const numberList = [1, 2, 3, 4, 5];
+
 // for-loop function.
 function sumFor(nums) {
   let sum = 0;
@@ -7,7 +9,6 @@ function sumFor(nums) {
   return sum;
 }
 
-const numberList = [1, 2, 3, 4, 5];
 console.log(sumFor(numberList));
 
 // while-loop function.
